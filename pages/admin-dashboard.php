@@ -39,11 +39,11 @@ $tpacConfirmed = (int)$pdo->query("SELECT COUNT(*) FROM nominations WHERE status
 <header class="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-space-md">
 <div class="flex flex-col gap-space-xs max-w-4xl">
 <nav aria-label="Breadcrumb" class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant">
-<a class="hover:text-primary transition-colors flex items-center gap-1" href="#">
+<a class="hover:text-primary transition-colors flex items-center gap-1" href="<?= BASE_URL ?>/pages/dashboard.php">
 <span class="material-symbols-outlined text-[15px]">home</span>Home
           </a>
 <span class="text-outline-variant font-bold">/</span>
-<a class="hover:text-primary transition-colors" href="#">Cadre Administration</a>
+<a class="hover:text-primary transition-colors" href="<?= BASE_URL ?>/pages/admin-dashboard.php">Cadre Administration</a>
 <span class="text-outline-variant font-bold">/</span>
 <span class="text-primary font-semibold">National Workforce Command &amp; Capacity Hub</span>
 </nav>
@@ -54,7 +54,7 @@ $tpacConfirmed = (int)$pdo->query("SELECT COUNT(*) FROM nominations WHERE status
           </h1>
 </div>
 <p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
-          Real-time statistical capability oversight across Indian Statistical Service (<strong class="text-on-surface font-semibold">ISS â€” 840 Officers</strong>), Subordinate Statistical Service (<strong class="text-on-surface font-semibold">SSS â€” 3,850 Personnel</strong>), and <strong class="text-on-surface font-semibold">36 State Directorates of Economics &amp; Statistics (DES)</strong> under the aegis of NSSTA &amp; Cadre Control Authority.
+          Real-time statistical capability oversight across Indian Statistical Service (<strong class="text-on-surface font-semibold">ISS — 840 Officers</strong>), Subordinate Statistical Service (<strong class="text-on-surface font-semibold">SSS — 3,850 Personnel</strong>), and <strong class="text-on-surface font-semibold">36 State Directorates of Economics &amp; Statistics (DES)</strong> under the aegis of NSSTA &amp; Cadre Control Authority.
         </p>
 </div>
 <!-- Quick Action CTAs -->
@@ -162,7 +162,7 @@ $tpacConfirmed = (int)$pdo->query("SELECT COUNT(*) FROM nominations WHERE status
 </div>
 <div class="flex justify-between items-center text-[11px] text-on-surface-variant font-label-sm pt-1">
 <span>208 NSSO Field | 104 NAD HQ</span>
-<a class="text-secondary font-bold hover:underline" href="#intervention-queue">View Mandates â†’</a>
+<a class="text-secondary font-bold hover:underline" href="#intervention-queue">View Mandates →</a>
 </div>
 </div>
 </div>
@@ -558,7 +558,7 @@ $tpacConfirmed = (int)$pdo->query("SELECT COUNT(*) FROM nominations WHERE status
               </span>
 </div>
 <button class="font-label-sm text-label-sm text-primary font-bold hover:underline shrink-0">
-              Download Panel Clearance Matrix â†’
+              Download Panel Clearance Matrix →
             </button>
 </div>
 </div>
@@ -601,7 +601,7 @@ $tpacConfirmed = (int)$pdo->query("SELECT COUNT(*) FROM nominations WHERE status
                 Targeting officers with below-benchmark geospatial scores in Agricultural Statistics &amp; Urban Sampling frames. Venue: NSSTA Campus, Greater Noida.
               </p>
 <div class="flex items-center justify-between pt-2 text-[11px] font-label-sm">
-<span class="text-on-surface-variant">Dates: <strong>03 Mar â€“ 07 Mar 2025</strong></span>
+<span class="text-on-surface-variant">Dates: <strong>03 Mar – 07 Mar 2025</strong></span>
 <div class="flex items-center gap-1.5">
 <button class="px-2 py-1 rounded bg-surface-container-highest hover:bg-surface-dim text-on-surface transition-colors font-semibold">
                     Override Roster
@@ -731,9 +731,9 @@ $tpacConfirmed = (int)$pdo->query("SELECT COUNT(*) FROM nominations WHERE status
 </div>
 <div class="flex items-center gap-space-sm font-label-sm text-label-sm text-on-surface-variant">
 <span>GIGW 3.0 Accessible</span>
-<span>â€¢</span>
+<span>•</span>
 <span>Security Compliant: CERT-In Certified</span>
-<span>â€¢</span>
+<span>•</span>
 <span class="text-primary font-bold">Version 4.1.2-PROD</span>
 </div>
 </footer>

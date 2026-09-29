@@ -130,11 +130,11 @@ $userId = (int)$user['id'];
 <div class="flex items-center justify-between gap-space-sm pb-space-sm">
 <div class="flex items-center gap-space-xs">
 <span class="px-2.5 py-1 rounded bg-tertiary-container text-on-tertiary font-label-md text-label-md">Question 04 of 10</span>
-<span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">SNA 2008 â€¢ Macro Aggregates</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">SNA 2008 • Macro Aggregates</span>
 </div>
 <div class="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm">
 <span class="material-symbols-outlined text-[16px] text-secondary">verified</span>
-<span>Weight: 2.00 Marks â€¢ Negative: -0.66</span>
+<span>Weight: 2.00 Marks • Negative: -0.66</span>
 </div>
 </div>
 <!-- Question Stem -->
@@ -243,7 +243,7 @@ $userId = (int)$user['id'];
 <span class="material-symbols-outlined text-[16px]">warning</span>
 <span>Do not refresh or switch application windows. Tab navigation is monitored.</span>
 </span>
-<a class="text-secondary font-label-sm text-label-sm hover:underline flex items-center gap-1" href="#" onclick="triggerHelpdeskModal(event)">
+<a class="text-secondary font-label-sm text-label-sm hover:underline flex items-center gap-1" href="javascript:void(0)" onclick="triggerHelpdeskModal(event)">
 <span class="material-symbols-outlined text-[16px]">support_agent</span>
 <span>Emergency Proctor Helpdesk</span>
 </a>
@@ -369,7 +369,7 @@ $userId = (int)$user['id'];
 </div>
 <!-- NSSTA Contact Footer -->
 <div class="mt-space-md pt-space-sm flex items-center justify-between text-label-sm font-label-sm text-on-surface-variant">
-<span>NSSTA Examination Wing â€¢ Greater Noida</span>
+<span>NSSTA Examination Wing • Greater Noida</span>
 <span class="font-mono">Code: ISS-MID-2024</span>
 </div>
 </div>
@@ -493,7 +493,7 @@ $userId = (int)$user['id'];
       }
     });
   }
-</script></main><footer class="w-full bg-surface-container-low text-on-surface-variant py-space-md px-space-lg mt-space-lg"><div class="flex flex-col md:flex-row items-center justify-between gap-space-sm text-body-sm font-body-sm"><span>Gap2Grow Cadre Portal â€¢ National Statistical Systems Training Academy (NSSTA) â€¢ MoSPI</span><span>GIGW-3.0 Compliant â€¢ NIC Gateway Secure Node</span></div></footer></div><script>
+</script></main><footer class="w-full bg-surface-container-low text-on-surface-variant py-space-md px-space-lg mt-space-lg"><div class="flex flex-col md:flex-row items-center justify-between gap-space-sm text-body-sm font-body-sm"><span>Gap2Grow Cadre Portal • National Statistical Systems Training Academy (NSSTA) • MoSPI</span><span>GIGW-3.0 Compliant • NIC Gateway Secure Node</span></div></footer></div><script>
 async function submitAssessmentForm() {
     if (!confirm('Submit proctored assessment responses to NSSTA Evaluation Engine?')) return;
     

@@ -190,7 +190,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <label class="font-label-sm text-label-sm text-primary" for="login-password">
   Parichay Central Password <span class="text-secondary">*</span>
 </label>
-<a class="font-label-sm text-label-sm text-secondary hover:text-on-secondary-fixed-variant transition-colors" href="#">Forgot Parichay Credential?</a>
+<a class="font-label-sm text-label-sm text-secondary hover:text-on-secondary-fixed-variant transition-colors" href="<?= BASE_URL ?>/pages/helpdesk.php">Forgot Parichay Credential?</a>
 </div>
 <div class="relative">
 <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-outline">
@@ -416,7 +416,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </div>
 </li>
 </ol>
-<a class="inline-flex items-center gap-space-xs font-label-md text-label-md text-secondary hover:text-on-secondary-fixed-variant transition-colors pt-1" href="#">
+<a class="inline-flex items-center gap-space-xs font-label-md text-label-md text-secondary hover:text-on-secondary-fixed-variant transition-colors pt-1" href="<?= BASE_URL ?>/pages/about.php">
 <span class="material-symbols-outlined text-[18px]">download</span>
 <span>Download Officer Onboarding Manual (PDF, 2.4 MB)</span>
 </a>
